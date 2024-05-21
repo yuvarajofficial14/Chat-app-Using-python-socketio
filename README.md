@@ -16,22 +16,21 @@ It's a good practice to create a virtual environment for your Python projects to
 2.Navigate to your project directory.
 3.Run the following command to create a virtual environment named venv: 
 
-python -m venv venv
+**python -m venv venv**
 
 4.Activate the virtual environment:
 
 On Windows: venv\Scripts\activate
 On macOS and Linux: source venv/bin/activate
 
-Installing Dependencies
+**Installing Dependencies**
 Once your virtual environment is activated, install the required dependencies using pip:
 
 pip install flask flask-socketio
 
-Running the Application
+**Running the Application**
 After installing the dependencies, you can run the Flask application:
-
-python app.py
+**python app.py**
 
 
 Python Chat App using SocketIO and Flask
